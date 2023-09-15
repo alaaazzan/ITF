@@ -15,3 +15,7 @@ if __name__ == '__main__':
 print ("Alaa")
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 print("Ali")
+if 10 > 2:
+    print ("Yes")
+
+print ("no")
