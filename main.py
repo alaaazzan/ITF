@@ -154,28 +154,3 @@ def rectangle (num1,num2):
     print(total)
 
 
-
-while True:
-    print("Hello, choose the operation you want:")
-    print(
-        "1. Sum\n2. Subtract\n3. Multiply\n4. Division\n5. Calculate triangle area\n6. Calculate circle area\n7. Calculate rectangle area\n8. Exit")
-
-    choice = int(input("Your choice: "))
-
-    if choice == 8:
-        break
-    elif choice == 2:
-        num1 = int(input("Enter num1: "))
-        num2 = int(input("Enter num2: "))
-        sub(num1, num2)
-    elif choice == 3:
-        num1 = int(input("Enter num1: "))
-        num2 = int(input("Enter num2: "))
-        mul(num1, num2)
-    elif choice == 4:
-        num1 = int(input("Enter num1: "))
-        num2 = int(input("Enter num2: "))
-        div(num1, num2)
-    elif choice == 5:
-        Base = int(input("Enter Base: "))
-        lengthint=(input("Enter Base: "))
